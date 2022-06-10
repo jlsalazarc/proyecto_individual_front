@@ -1,0 +1,22 @@
+.header__container__group__logo {
+    padding:1.5rem 0;
+    position:relative;
+    z-index:2;
+    margin: 0;
+    margin-right: 1.5rem;
+}
+
+.header__container__group__logo a {
+    text-decoration: none;
+    transition: all 0.3s linear 0s;
+    font-size: 100%;
+    color: #fff;
+}
+
+.header__container__group__logo img{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: middle;
+    max-height: 60px;
+}

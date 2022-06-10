@@ -1,0 +1,52 @@
+.header__container__group__access__search{
+    position:relative
+}
+
+.header__container__group__access__search
+.header__container__group__access__search__icon{
+    position:relative;
+    padding:0;
+    display:block
+}
+
+.header__container__group__access__search
+.header__container__group__access__search__icon input{
+    border:1px solid rgba(61, 79, 145, .5);
+    background-color:#fff;
+    color:inherit;
+    padding:.25rem 1.5rem;
+    border-radius:2rem;
+    display: block;
+    line-height: calc(2rem - 2px);
+    width:11.5rem;
+}
+
+.header__container__group__access__search
+.header__container__group__access__search__icon input:focus{
+    border-color:#3D4F91
+}
+
+.header__container__group__access__search
+.header__container__group__access__search__icon button{
+    background-color:transparent!important;
+    padding:0;
+    position:absolute;
+    left:0;
+    top:0;
+    width:2.5rem;
+    height:2.5rem;
+    padding-right:0.5rem;
+    color:#007AFF;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    line-height: 2rem;
+    border-radius: 3rem;
+}
+
+.header__container__group__access__search
+.header__container__group__access__search__icon button:hover{
+    transform:scale(1.1)
+}

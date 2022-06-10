@@ -1,0 +1,13 @@
+.header .header__container__group__access__options button{
+    padding: .25rem 1rem;
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+}
+
+.header .header__container__group__access__options button:hover{
+    color: #000;
+}
+

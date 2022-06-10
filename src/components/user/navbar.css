@@ -1,0 +1,70 @@
+.container__header__nav__btn {
+    width: 2rem;
+    min-width: 2rem;
+    height: 2.5rem;
+    cursor: pointer;
+    background-color: transparent;
+    padding: .75rem .85rem 0;
+    background-color: rgba(254, 79, 0, 0.94);
+    border-radius: 3rem;
+    z-index: 10;
+}
+
+.container__header__nav__btn i{
+    background-color: #fff;
+    width: 100%;
+    height: 3px;
+    margin: 4px 0;
+    transition: all .2s ease-in;
+    display: block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.on .container__header__nav__btn>i:nth-child(1){
+    -webkit-transform:translateY(200%) rotate(45deg);
+    transform:translateY(200%) rotate(45deg)
+}
+.on .container__header__nav__btn>i:nth-child(2){
+    opacity:0
+}
+.on .container__header__nav__btn>i:nth-child(3){
+    -webkit-transform:translateY(-200%) rotate(135deg);
+    transform:translateY(-200%) rotate(135deg);
+    position:relative;
+    bottom:2px
+}
+
+.header__container__group__access{
+    align-items:center;
+    flex-grow: 1;
+}
+
+.header .header__container__group__access__nav{
+    flex-grow: 1;
+}
+
+.header .header__container__group__access__nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+
+}
+
+.header .header__container__group__access__nav a{
+    display: inline-block;
+    padding: 0.5rem 0;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s linear 0s;
+    font-size: 100%;
+    color: #fff;
+
+}
+
+.header .header__container__group__access__nav a:hover{
+    text-decoration: none;
+    color: #000;
+}

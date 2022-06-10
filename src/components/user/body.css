@@ -1,0 +1,26 @@
+.destinosCard-container_img {
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.destinosCard-container {
+    margin-top: 200px;
+    margin-left: 200px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    row-gap: 10px;
+    column-gap: 20px;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.destinosCard-container a {
+    text-decoration: none;
+}
+
+.destinosCard-container_img img {
+    display: block;
+    width: 360px;
+  }
+

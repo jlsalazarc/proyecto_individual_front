@@ -1,0 +1,36 @@
+.header{
+    top:0;
+    margin-bottom: 0;
+    position:fixed;
+    width:100%
+}
+
+.header:after {
+    content: '';
+    z-index: -1;
+    position: absolute;
+    left:0;
+    top:0;
+    right:0;
+    pointer-events:none;
+    transition:.2s;
+    background: rgb(255, 79, 0, 0.85);
+    height:100%;
+    opacity:1;
+    display: block;
+}
+
+.header__container{
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+}
+
+
+.header__container__group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
